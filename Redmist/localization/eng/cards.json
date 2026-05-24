@@ -1,0 +1,30 @@
+{
+  "REDMIST-STRIKE_REDMIST.title": "Strike",
+  "REDMIST-STRIKE_REDMIST.description": "#Deal !D! Damage.",
+  "REDMIST-DEFEND_REDMIST.title": "Defend",
+  "REDMIST-DEFEND_REDMIST.description": "#Gain !B! *Block.",
+  "REDMIST-FOCUS_SPIRIT.title": "Focus Spirit",
+  "REDMIST-FOCUS_SPIRIT.description": "#Gain !B! *Block \n Next turn, gain {StrengthNextTurnPower} *Strength.",
+  "REDMIST-ONRUSH.title": "Onrush",
+  "REDMIST-ONRUSH.description": "#Deal !D! Damage. \n If the target is killed, repeat this attack on a random enemy",
+  "REDMIST-UPSTANDING_SLASH.title": "Upstanding Slash",
+  "REDMIST-UPSTANDING_SLASH.description": "#Deal !D! damage {Repeat} times. If 10 or more Damage is unblocked, reduce the cost of ALL Upstanding Slash cards by 1 this combat and draw 1 card next turn.",
+  "REDMIST-SPEAR.title": "Spear",
+  "REDMIST-SPEAR.description": "#Deal !D! damage {Repeat} times. If 10 or more Damage is unblocked, reduce the cost of ALL Spear cards by 1 this combat and draw 1 card next turn.",
+  "REDMIST-LEVEL_SLASH.title": "Level Slash",
+  "REDMIST-LEVEL_SLASH.description": "#Deal !D! damage {Repeat} times, Apply {BleedPower} Bleed. If 10 or more Damage is unblocked, reduce the cost of ALL Level Slash cards by 1 this combat and draw 1 card next turn.",
+  "REDMIST-GREATER_SPLIT_VERTICAL.title": "Greater Split: Vertical",
+  "REDMIST-GREATER_SPLIT_VERTICAL.description": "#Deal !D! damage. *Stun the enemy",
+  "REDMIST-GREATER_SPLIT_HORIZONTAL.title": "Greater Split: Horizontal",
+  "REDMIST-GREATER_SPLIT_HORIZONTAL.description": "#Deal !D! damage. Apply {BleedPower} Bleed",
+  "REDMIST-QUICK_SLASH.title": "Quick Slash",
+  "REDMIST-QUICK_SLASH.description": "#Deal !D! damage. \n Agile",
+
+  
+  
+  
+  "REDMIST-DEBUG_DRAW.description": "",
+  "REDMIST-DEBUG_DRAW.title": "debugDraw",
+  "REDMIST-TEST_BLEED.description": "",
+  "REDMIST-TEST_BLEED.title": "TestBleed"
+}

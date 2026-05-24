@@ -1,0 +1,18 @@
+{
+  "REDMIST-REDMIST.aromaPrinciple": "Lore",
+  "REDMIST-REDMIST.banter.alive.endTurnPing": "Co-op hurry up end turn ping message",
+  "REDMIST-REDMIST.banter.dead.endTurnPing": "...",
+  "REDMIST-REDMIST.cardsModifierDescription": "__ cards will now appear in rewards and shops.",
+  "REDMIST-REDMIST.cardsModifierTitle": "__ Cards",
+  "REDMIST-REDMIST.description": "Character Selection\nScreen Description",
+  "REDMIST-REDMIST.eventDeathPrevention": "Co-op survival line",
+  "REDMIST-REDMIST.goldMonologue": "Line spoken when obtaining a large amount of gold",
+  "REDMIST-REDMIST.possessiveAdjective": "her",
+  "REDMIST-REDMIST.pronounObject": "her",
+  "REDMIST-REDMIST.pronounPossessive": "her",
+  "REDMIST-REDMIST.pronounSubject": "she",
+  "REDMIST-REDMIST.title": "The Redmist",
+  "REDMIST-REDMIST.titleObject": "The Redmist",
+
+  "REDMIST-REDMIST.unlockText": "Termine pelo menos 1 andar para desbloquear."
+}
