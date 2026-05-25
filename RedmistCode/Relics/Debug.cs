@@ -22,7 +22,7 @@ public class Debug() : RedmistRelic
     {
         if (!(room is CombatRoom))
             return;
-        await PowerCmd.Apply<SpeedPower>(Owner.Creature, 1, Owner.Creature, null,false);;
+        await PowerCmd.Apply<SpeedPower>(Owner.Creature, 1, Owner.Creature, null,false);
     }
     
     /*public override async Task AfterPlayerTurnStart(PlayerChoiceContext choiceContext, Player player)
