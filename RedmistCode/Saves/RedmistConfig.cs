@@ -7,12 +7,9 @@ public class RedmistConfig : ModConfig
 {
     public static bool IsRedmistUnlocked { get; set; } = false;
 
-    // Guardamos a instância aqui
+    [ConfigIgnore]
     public static RedmistConfig Instance { get; private set; }
-    
-    
 
-    // Chamamos isso uma vez no começo do jogo
     public static void Setup()
     {
         Instance = new RedmistConfig();
@@ -20,6 +17,5 @@ public class RedmistConfig : ModConfig
 
     public override void SetupConfigUI(Control optionContainer)
     {
-        // Deixamos vazio para não aparecer no menu
     }
 }

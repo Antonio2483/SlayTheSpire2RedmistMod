@@ -16,7 +16,6 @@ namespace Redmist.RedmistCode.Patches;
 [HarmonyPatch]
 public static class RedmistUnlockPatches
 {
-    // 1. O desbloqueio real: Gastar 1000 de Ouro em lojas
     [HarmonyPatch(typeof(AchievementsHelper), nameof(AchievementsHelper.AfterRunEnded))]
     [HarmonyPostfix]
     public static void AfterRunEnded(RunState state, Player player, bool isVictory)
@@ -52,10 +51,9 @@ public static class RedmistUnlockPatches
         }*/
         
         RedmistConfig.IsRedmistUnlocked = true;
-        ModConfig.SaveDebounced<RedmistConfig>(0);
+        RedmistConfig.Instance?.Save();
     }
 
-    // 2. O Texto da Dica
     [HarmonyPatch(typeof(CharacterModel), nameof(CharacterModel.GetUnlockText))]
     [HarmonyPostfix]
     public static void GetUnlockText(CharacterModel __instance, ref LocString __result)

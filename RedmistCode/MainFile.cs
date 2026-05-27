@@ -1,3 +1,4 @@
+using BaseLib.Config;
 using Godot;
 using HarmonyLib;
 using MegaCrit.Sts2.Core.Modding;
@@ -21,6 +22,11 @@ public partial class MainFile : Node
         // Inicia nosso sistema de unlock/save pelo BaseLib
         RedmistConfig.Setup();
 
+        RedmistConfig.Instance.ModId = ModId;
+
+        // 3. Registra na BaseLib para que os métodos de Save funcionem!
+        ModConfigRegistry.Register(ModId, RedmistConfig.Instance);
+        
         // O Harmony acha nossa classe RedmistUnlockPatches sozinho!
         Harmony harmony = new(ModId);
         harmony.PatchAll();
