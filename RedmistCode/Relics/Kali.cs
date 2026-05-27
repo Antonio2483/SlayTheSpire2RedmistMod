@@ -31,7 +31,7 @@ public class Kali() : RedmistRelic
     
     protected override IEnumerable<DynamicVar> CanonicalVars => [
         new DynamicVar("HpThreshold", 50M),
-        new PowerVar<PartialEGOPower>(1),
+        new PowerVar<PartialEgoPower>(1),
     ];
 
     public override async Task AfterPlayerTurnStart(PlayerChoiceContext choiceContext, Player player)
@@ -73,9 +73,9 @@ public class Kali() : RedmistRelic
 
         if (isHalfHP && !EGOApplied)
         {
-            await PowerCmd.Apply<PartialEGOPower>(
+            await PowerCmd.Apply<PartialEgoPower>(
                 Owner.Creature,
-                DynamicVars[nameof(PartialEGOPower)].BaseValue,
+                DynamicVars[nameof(PartialEgoPower)].BaseValue,
                 Owner.Creature,
                 null,
                 false
@@ -85,9 +85,9 @@ public class Kali() : RedmistRelic
         }
         else if (!isHalfHP && EGOApplied)
         {
-            await PowerCmd.Apply<PartialEGOPower>(
+            await PowerCmd.Apply<PartialEgoPower>(
                 Owner.Creature,
-                -DynamicVars[nameof(PartialEGOPower)].BaseValue,
+                -DynamicVars[nameof(PartialEgoPower)].BaseValue,
                 Owner.Creature,
                 null,
                 false

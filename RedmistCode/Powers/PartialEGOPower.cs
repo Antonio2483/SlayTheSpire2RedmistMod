@@ -11,8 +11,9 @@ using MegaCrit.Sts2.Core.ValueProps;
 
 namespace Redmist.RedmistCode.Powers;
 
-public class PartialEGOPower: CustomPowerModel
+public class PartialEgoPower: CustomPowerModel
 {
+    
     private int _statsApplied;
     
     private int statsApplied

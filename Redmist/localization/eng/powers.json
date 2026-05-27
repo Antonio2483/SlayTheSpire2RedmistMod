@@ -8,9 +8,9 @@
   "REDMIST-BLEED_POWER.title": "Bleed",
   "REDMIST-BLEED_POWER.description": "After attack, take {Amount} Damage",
   "REDMIST-BLEED_POWER.smartDescription": "After attack, take {Amount} Damage",
-  "REDMIST-PARTIAL_EG_O_POWER.title": "Partial EGO",
-  "REDMIST-PARTIAL_EG_O_POWER.description": "Gain 2 Strength and 2 Dexterity. Whenever an Attack kills an enemy, gain 1 Strength and 1 Dexterity. At the start of your turn, if you dealt less than 10 unblocked damage last turn, lose this Power and all stats granted by it.",
-  "REDMIST-PARTIAL_EG_O_POWER.smartDescription": "Gain 2 Strength and 2 Dexterity. Whenever an Attack kills an enemy, gain 1 Strength and 1 Dexterity. At the start of your turn, if you dealt less than 10 unblocked damage last turn, lose this Power and all stats granted by it.",
+  "REDMIST-PARTIAL_EGO_POWER.title": "Partial EGO",
+  "REDMIST-PARTIAL_EGO_POWER.description": "Gain 2 Strength and 2 Dexterity. Whenever an Attack kills an enemy, gain 1 Strength and 1 Dexterity. At the start of your turn, if you dealt less than 10 unblocked damage last turn, lose this Power and all stats granted by it.",
+  "REDMIST-PARTIAL_EGO_POWER.smartDescription": "Gain 2 Strength and 2 Dexterity. Whenever an Attack kills an enemy, gain 1 Strength and 1 Dexterity. At the start of your turn, if you dealt less than 10 unblocked damage last turn, lose this Power and all stats granted by it.",
   "REDMIST-SPEED_POWER.title": "Speed",
   "REDMIST-SPEED_POWER.description": "Whenever you play an Agile card, repeat its effect {Amount} extra times.",
   "REDMIST-SPEED_POWER.smartDescription": "Whenever you play an Agile card, repeat its effect {Amount} extra times."  

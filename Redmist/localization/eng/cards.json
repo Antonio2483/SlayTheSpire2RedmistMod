@@ -18,10 +18,8 @@
   "REDMIST-GREATER_SPLIT_HORIZONTAL.title": "Greater Split: Horizontal",
   "REDMIST-GREATER_SPLIT_HORIZONTAL.description": "#Deal !D! damage to all enemies. Apply {BleedPower} Bleed",
   "REDMIST-QUICK_SLASH.title": "Quick Slash",
-  "REDMIST-QUICK_SLASH.description": "#Deal !D! damage. \n Agile",
+  "REDMIST-QUICK_SLASH.description": "#Deal !D! damage. \n *Agile",
 
-  
-  
   
   "REDMIST-DEBUG_DRAW.description": "",
   "REDMIST-DEBUG_DRAW.title": "debugDraw",
