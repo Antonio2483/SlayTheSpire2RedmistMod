@@ -22,34 +22,6 @@ public static class RedmistUnlockPatches
     {
         if (RedmistConfig.IsRedmistUnlocked) return;
 
-        /*int goldSpent = 0;
-        foreach (var actHistory in state.MapPointHistory)
-        {
-            foreach (var pointHistory in actHistory)
-            {
-                foreach (var room in pointHistory.Rooms)
-                {
-                    if (room.RoomType == MegaCrit.Sts2.Core.Rooms.RoomType.Shop)
-                    {
-                        foreach (var playerStat in pointHistory.PlayerStats)
-                        {
-                            if (playerStat.PlayerId == player.NetId)
-                            {
-                                goldSpent += playerStat.GoldSpent;
-                            }
-                        }
-                    }
-                }
-            }
-        }
-
-        if (goldSpent >= 1000)
-        {
-            RedmistConfig.IsRedmistUnlocked = true;
-            ModConfig.SaveDebounced<RedmistConfig>(0);
-            MainFile.Logger.Info("[Redmist Mod] Jogador gastou 1000 de ouro. Personagem desbloqueada com sucesso!");
-        }*/
-        
         RedmistConfig.IsRedmistUnlocked = true;
         RedmistConfig.Instance?.Save();
     }

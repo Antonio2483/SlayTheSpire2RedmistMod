@@ -12,13 +12,15 @@
   "REDMIST-SPEAR.title": "Spear",
   "REDMIST-SPEAR.description": "#Deal !D! damage {Repeat} times. If 10 or more Damage is unblocked, reduce the cost of ALL Spear cards by 1 this combat and draw 1 card next turn.",
   "REDMIST-LEVEL_SLASH.title": "Level Slash",
-  "REDMIST-LEVEL_SLASH.description": "#Deal !D! damage {Repeat} times, Apply {BleedPower} Bleed. If 10 or more Damage is unblocked, reduce the cost of ALL Level Slash cards by 1 this combat and draw 1 card next turn.",
+  "REDMIST-LEVEL_SLASH.description": "#Deal !D! damage {Repeat} times, Apply {BleedPower} Bleed. If 10 or more Damage is unblocked, reduce the cost of ALL Level Slash cards by 1 this combat and gain 1 energy next turn.",
   "REDMIST-GREATER_SPLIT_VERTICAL.title": "Greater Split: Vertical",
   "REDMIST-GREATER_SPLIT_VERTICAL.description": "#Deal !D! damage. *Stun the enemy",
   "REDMIST-GREATER_SPLIT_HORIZONTAL.title": "Greater Split: Horizontal",
   "REDMIST-GREATER_SPLIT_HORIZONTAL.description": "#Deal !D! damage to all enemies. Apply {BleedPower} Bleed",
   "REDMIST-QUICK_SLASH.title": "Quick Slash",
   "REDMIST-QUICK_SLASH.description": "#Deal !D! damage. \n *Agile",
+  "REDMIST-HOLLOW_POINT_SHELL.description": "#Deal !D! Damage. The target lose {TemporaryStrengthPower} *Strength this turn",
+  "REDMIST-HOLLOW_POINT_SHELL.title": "Hollow-Point Shell",
 
   
   "REDMIST-DEBUG_DRAW.description": "",

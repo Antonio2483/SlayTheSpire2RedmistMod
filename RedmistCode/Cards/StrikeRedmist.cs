@@ -9,9 +9,8 @@ using Redmist.RedmistCode.Character;
 
 namespace Redmist.RedmistCode.Cards;
 
-[Pool(typeof(RedmistCardPool))]
 public class StrikeRedmist() : RedmistCard(1, CardType.Attack,
-    CardRarity.Common, TargetType.AnyEnemy)
+    CardRarity.Basic, TargetType.AnyEnemy)
 {
     protected override HashSet<CardTag> CanonicalTags =>
     [

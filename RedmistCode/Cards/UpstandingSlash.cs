@@ -9,7 +9,7 @@ using Redmist.RedmistCode.Cards;
 namespace Redmist.RedmistCode.Cards;
 
 public class UpstandingSlash() : RedmistCard(2,
-    CardType.Attack, CardRarity.Basic,
+    CardType.Attack, CardRarity.Common,
     TargetType.AnyEnemy)
 {
     protected override IEnumerable<DynamicVar> CanonicalVars => [

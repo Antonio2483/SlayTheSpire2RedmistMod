@@ -9,7 +9,6 @@ using Redmist.RedmistCode.Character;
 
 namespace Redmist.RedmistCode.Cards;
 
-[Pool(typeof(RedmistCardPool))]
 public class DefendRedmist() : RedmistCard(1,
     CardType.Skill, CardRarity.Basic,
     TargetType.Self)

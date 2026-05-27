@@ -1,16 +1,19 @@
-﻿using MegaCrit.Sts2.Core.Commands;
+﻿using BaseLib.Utils;
+using MegaCrit.Sts2.Core.Commands;
 using MegaCrit.Sts2.Core.Entities.Cards;
 using MegaCrit.Sts2.Core.GameActions.Multiplayer;
 using MegaCrit.Sts2.Core.Localization.DynamicVars;
 using MegaCrit.Sts2.Core.Models.Powers;
 using MegaCrit.Sts2.Core.ValueProps;
 using Redmist.RedmistCode.Cards;
+using Redmist.RedmistCode.Character;
 using Redmist.RedmistCode.Powers;
 
 namespace Redmist.RedmistCode.Cards;
 
+[Pool(typeof(RedmistCardPool))]
 public class LevelSlash() : RedmistCard(2,
-    CardType.Attack, CardRarity.Basic,
+    CardType.Attack, CardRarity.Common,
     TargetType.AnyEnemy)
 {
     
@@ -39,7 +42,7 @@ public class LevelSlash() : RedmistCard(2,
 
         if (totalUnblocked >= 10)
         {
-            await PowerCmd.Apply<DrawCardsNextTurnPower>(
+            await PowerCmd.Apply<EnergyNextTurnPower>(
                 Owner.Creature,
                 1,
                 Owner.Creature,
