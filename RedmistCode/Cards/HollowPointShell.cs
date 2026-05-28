@@ -19,7 +19,7 @@ public class HollowPointShell() : RedmistCard(1,
 {
     protected override IEnumerable<DynamicVar> CanonicalVars => [
         new DamageVar(6m, ValueProp.Move),
-        new PowerVar<TemporaryStrengthPower>(1),
+        new DynamicVar("StrengthLoss", 1M)
     ];
 
     protected override async Task OnPlay(
@@ -37,13 +37,13 @@ public class HollowPointShell() : RedmistCard(1,
         
         await PowerCmd.Apply<TemporaryStrengthPower>(
             play.Target,
-            (DynamicVars[nameof(TemporaryStrengthPower)].BaseValue * -1),
+            DynamicVars["StrengthLoss"].BaseValue,
             Owner.Creature,
             this);
     }
 
     protected override void OnUpgrade()
     {
-        this.DynamicVars["TemporaryStrengthPower"].UpgradeValueBy(1m);
+        this.DynamicVars["StrengthLoss"].UpgradeValueBy(1M);
     }
 }

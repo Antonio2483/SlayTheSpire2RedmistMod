@@ -19,7 +19,7 @@
   "REDMIST-GREATER_SPLIT_HORIZONTAL.description": "#Deal !D! damage to all enemies. Apply {BleedPower} Bleed",
   "REDMIST-QUICK_SLASH.title": "Quick Slash",
   "REDMIST-QUICK_SLASH.description": "#Deal !D! damage. \n *Agile",
-  "REDMIST-HOLLOW_POINT_SHELL.description": "#Deal !D! Damage. The target lose {TemporaryStrengthPower} *Strength this turn",
+  "REDMIST-HOLLOW_POINT_SHELL.description": "#Deal !D! Damage. The target lose {StrengthLoss} *Strength this turn",
   "REDMIST-HOLLOW_POINT_SHELL.title": "Hollow-Point Shell",
 
   
