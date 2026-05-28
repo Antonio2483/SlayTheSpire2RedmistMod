@@ -28,21 +28,21 @@ public class Redmist : PlaceholderCharacterModel
     
     public override IEnumerable<CardModel> StartingDeck =>
     [
-        ModelDb.Card<Spear>(),
-        ModelDb.Card<UpstandingSlash>(),
-        ModelDb.Card<GreaterSplitVertical>(),
-        ModelDb.Card<GreaterSplitHorizontal>(),
-        ModelDb.Card<FocusSpirit>(),
-        ModelDb.Card<QuickSlash>(),
-        ModelDb.Card<LevelSlash>(),
-        ModelDb.Card<Onrush>(),
-        ModelDb.Card<DebugDraw>()
-        
+        ModelDb.Card<StrikeRedmist>(),
+        ModelDb.Card<StrikeRedmist>(),
+        ModelDb.Card<StrikeRedmist>(),
+        ModelDb.Card<StrikeRedmist>(),
+        ModelDb.Card<DefendRedmist>(),
+        ModelDb.Card<DefendRedmist>(),
+        ModelDb.Card<DefendRedmist>(),
+        ModelDb.Card<DefendRedmist>(),
+        ModelDb.Card<Penitence>(),
+        ModelDb.Card<RedEyes>()
     ];
 
     public override IReadOnlyList<RelicModel> StartingRelics =>
     [
-        ModelDb.Relic<Debug>()
+        ModelDb.Relic<Kali>()
     ];
 
     public override CardPoolModel CardPool => ModelDb.CardPool<RedmistCardPool>();

@@ -19,7 +19,7 @@ public class DefendRedmist() : RedmistCard(1,
     ];
     
     protected override IEnumerable<DynamicVar> CanonicalVars => [
-        new BlockVar(6, ValueProp.Move)
+        new BlockVar(5, ValueProp.Move)
     ];
 
     protected override async Task OnPlay(
@@ -31,6 +31,6 @@ public class DefendRedmist() : RedmistCard(1,
 
     protected override void OnUpgrade()
     {
-        DynamicVars.Block.UpgradeValueBy(2m);
+        DynamicVars.Block.UpgradeValueBy(3m);
     }
 }
