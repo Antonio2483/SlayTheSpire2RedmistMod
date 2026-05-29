@@ -1,17 +1,31 @@
 {
+  "REDMIST-TEMPORARY_SPEED_POWER.description": "#Gain *Speed until the end of this turn.",
+  "REDMIST-TEMPORARY_SPEED_POWER.smartDescription": "#Gain [blue]{Amount}[/blue] *Speed until the end of this turn.",
+  "REDMIST-TEMPORARY_SPEED_DOWN.description": "#Lose *Speed until the end of this turn.",
+  "REDMIST-TEMPORARY_SPEED_DOWN.smartDescription": "#Lose [blue]{Amount}[/blue] *Speed until the end of this turn.",
+  
   "REDMIST-STRENGTH_NEXT_TURN_POWER.title": "Strength Next Turn",
   "REDMIST-STRENGTH_NEXT_TURN_POWER.description": "At the start of your next turn, gain {Amount} Strength.",
   "REDMIST-STRENGTH_NEXT_TURN_POWER.smartDescription": "At the start of your next turn, gain {Amount} Strength.",
+  
   "REDMIST-LOSE_STRENGTH_END_OF_TURN_POWER.title": "Lose Strength End of turn",
   "REDMIST-LOSE_STRENGTH_END_OF_TURN_POWER.description": "At the end of your turn, lose {Amount} Strength.",
   "REDMIST-LOSE_STRENGTH_END_OF_TURN_POWER.smartDescription": "At the end of your turn, lose {Amount} Strength.",
+  
   "REDMIST-BLEED_POWER.title": "Bleed",
   "REDMIST-BLEED_POWER.description": "After attack, take {Amount} Damage",
   "REDMIST-BLEED_POWER.smartDescription": "After attack, take {Amount} Damage",
+  
   "REDMIST-PARTIAL_EGO_POWER.title": "Partial EGO",
   "REDMIST-PARTIAL_EGO_POWER.description": "Gain 2 Strength and 2 Dexterity. Whenever an Attack kills an enemy, gain 1 Strength and 1 Dexterity. At the start of your turn, if you dealt less than 10 unblocked damage last turn, lose this Power and all stats granted by it.",
   "REDMIST-PARTIAL_EGO_POWER.smartDescription": "Gain 2 Strength and 2 Dexterity. Whenever an Attack kills an enemy, gain 1 Strength and 1 Dexterity. At the start of your turn, if you dealt less than 10 unblocked damage last turn, lose this Power and all stats granted by it.",
+  
   "REDMIST-SPEED_POWER.title": "Speed",
   "REDMIST-SPEED_POWER.description": "Whenever you play an Agile card, repeat its effect {Amount} extra times.",
-  "REDMIST-SPEED_POWER.smartDescription": "Whenever you play an Agile card, repeat its effect {Amount} extra times."  
+  "REDMIST-SPEED_POWER.smartDescription": "Whenever you play an Agile card, repeat its effect {Amount} extra times.",
+  
+  "REDMIST-INSTINCTS_POWER.title": "Instincts",
+  "REDMIST-INSTINCTS_POWER.description": "Heal {Amount} HP every time you cause damage",
+  "REDMIST-INSTINCTS_POWER.smartDescription": "Heal {Amount} HP every time you cause damage",
+  
 }

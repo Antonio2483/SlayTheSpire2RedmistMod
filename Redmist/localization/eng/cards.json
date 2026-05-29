@@ -1,30 +1,55 @@
 {
   "REDMIST-STRIKE_REDMIST.title": "Strike",
   "REDMIST-STRIKE_REDMIST.description": "#Deal !D! Damage.",
+  
   "REDMIST-DEFEND_REDMIST.title": "Defend",
   "REDMIST-DEFEND_REDMIST.description": "#Gain !B! *Block.",
+  
   "REDMIST-FOCUS_SPIRIT.title": "Focus Spirit",
   "REDMIST-FOCUS_SPIRIT.description": "#Gain !B! *Block \n Next turn, gain {StrengthNextTurnPower} *Strength.",
+  
   "REDMIST-ONRUSH.title": "Onrush",
   "REDMIST-ONRUSH.description": "#Deal !D! Damage. \n If the target is killed, repeat this attack on a random enemy",
+  
   "REDMIST-UPSTANDING_SLASH.title": "Upstanding Slash",
   "REDMIST-UPSTANDING_SLASH.description": "#Deal !D! damage {Repeat} times. If 10 or more Damage is unblocked, reduce the cost of ALL Upstanding Slash cards by 1 this combat and draw 1 card next turn.",
+  
   "REDMIST-SPEAR.title": "Spear",
   "REDMIST-SPEAR.description": "#Deal !D! damage {Repeat} times. If 10 or more Damage is unblocked, reduce the cost of ALL Spear cards by 1 this combat and draw 1 card next turn.",
+  
   "REDMIST-LEVEL_SLASH.title": "Level Slash",
   "REDMIST-LEVEL_SLASH.description": "#Deal !D! damage {Repeat} times, Apply {BleedPower} *Bleed. If 10 or more Damage is unblocked, reduce the cost of ALL Level Slash cards by 1 this combat and gain 1 energy next turn.",
+  
   "REDMIST-GREATER_SPLIT_VERTICAL.title": "Greater Split: Vertical",
   "REDMIST-GREATER_SPLIT_VERTICAL.description": "#Deal !D! damage. *Stun the enemy",
+  
   "REDMIST-GREATER_SPLIT_HORIZONTAL.title": "Greater Split: Horizontal",
   "REDMIST-GREATER_SPLIT_HORIZONTAL.description": "#Deal !D! damage to all enemies. Apply {BleedPower} *Bleed",
+  
   "REDMIST-QUICK_SLASH.title": "Quick Slash",
   "REDMIST-QUICK_SLASH.description": "#Deal !D! damage. \n *Agile",
-  "REDMIST-HOLLOW_POINT_SHELL.description": "#Deal !D! Damage. The target lose {StrengthLoss} *Strength this turn",
+  
   "REDMIST-HOLLOW_POINT_SHELL.title": "Hollow-Point Shell",
+  "REDMIST-HOLLOW_POINT_SHELL.description": "#Deal !D! Damage. The target lose {StrengthLoss} *Strength this turn",
+  
   "REDMIST-PENITENCE.description": "#Gain !B! *Block.\n Deal !D! damage.",
   "REDMIST-PENITENCE.title": "Penitence",
-  "REDMIST-RED_EYES.description": "#Deal !D! Damage.\n Apply {BleedPower} *Bleed",
+
   "REDMIST-RED_EYES.title": "Red Eyes",
+  "REDMIST-RED_EYES.description": "#Deal !D! Damage.\n Apply {BleedPower} *Bleed",
+  
+  "REDMIST-MANIFEST_EGO.title": "Manifest E.G.O",  
+  "REDMIST-MANIFEST_EGO.description": "Manifests E.G.O",
+  
+  "REDMIST-INSTINCTS.title": "Instincts",
+  "REDMIST-INSTINCTS.description": "#This turn, Heal {InstinctsPower} HP every time you cause damage",
+
+  "REDMIST-DONT_TOUCH_ME.title": "Dont Touch Me",
+  "REDMIST-DONT_TOUCH_ME.description": "#Apply {[nameof(WeakPower)]} *Weak.\n Gain !D! *Block",
+
+  "REDMIST-SPEED_UP.title": "Speed Up",
+  "REDMIST-SPEED_UP.description": "#Gain {{[nameof(SpeedUpPower)]} *Speed this turn.",
+  
   
   "REDMIST-DEBUG_DRAW.description": "",
   "REDMIST-DEBUG_DRAW.title": "debugDraw",

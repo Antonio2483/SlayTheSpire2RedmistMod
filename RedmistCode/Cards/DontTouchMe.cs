@@ -1,5 +1,4 @@
-﻿using BaseLib.Extensions;
-using BaseLib.Utils;
+﻿using BaseLib.Utils;
 using MegaCrit.Sts2.Core.Commands;
 using MegaCrit.Sts2.Core.Entities.Cards;
 using MegaCrit.Sts2.Core.GameActions.Multiplayer;
@@ -8,18 +7,17 @@ using MegaCrit.Sts2.Core.Models.Powers;
 using MegaCrit.Sts2.Core.ValueProps;
 using Redmist.RedmistCode.Cards;
 using Redmist.RedmistCode.Character;
-using Redmist.RedmistCode.Powers;
 
 namespace Redmist.RedmistCode.Cards;
 
 [Pool(typeof(RedmistCardPool))]
-public class HollowPointShell() : RedmistCard(1,
-    CardType.Attack, CardRarity.Common,
+public class DontTouchMe() : RedmistCard(1,
+    CardType.Skill, CardRarity.Common,
     TargetType.AnyEnemy)
 {
     protected override IEnumerable<DynamicVar> CanonicalVars => [
-        new DamageVar(6m, ValueProp.Move),
-        new DynamicVar("StrengthLoss", 1M)
+        new PowerVar<WeakPower>(1),
+        new BlockVar(6, ValueProp.Move)
     ];
 
     protected override async Task OnPlay(
@@ -27,22 +25,19 @@ public class HollowPointShell() : RedmistCard(1,
         CardPlay play)
     {
         ArgumentNullException.ThrowIfNull(play.Target);
-
-        var attackCommand = await DamageCmd.Attack(DynamicVars.Damage.BaseValue)
-            .FromCard(this)
-            .Targeting(play.Target)
-            .WithHitFx("vfx/vfx_attack_slash")
-            .Execute(choiceContext);
         
-        await PowerCmd.Apply<HollowPointShellPower>(
+        await PowerCmd.Apply<WeakPower>(
             play.Target,
-            DynamicVars["StrengthLoss"].BaseValue,
+            DynamicVars[nameof(WeakPower)].BaseValue,
             Owner.Creature,
             this);
+        
+        await CreatureCmd.GainBlock(Owner.Creature, DynamicVars.Block, play);
     }
 
     protected override void OnUpgrade()
     {
-        this.DynamicVars["StrengthLoss"].UpgradeValueBy(1M);
+        DynamicVars.Block.UpgradeValueBy(2m);
+        DynamicVars[nameof(WeakPower)].UpgradeValueBy(1m);
     }
 }

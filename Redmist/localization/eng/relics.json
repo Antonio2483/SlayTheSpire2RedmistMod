@@ -1,8 +1,9 @@
 {
+  "REDMIST-KALI.title": "Kali",
+  "REDMIST-KALI.flavor": "An imposing presence that awakens true potential in the most critical moments.",
+  "REDMIST-KALI.description": "At the start of each combat, draw [blue]{Cards}[/blue] additional {Cards:plural:card|cards} and gain an additional {Energy:energyIcons()}. Whenever your HP is below [blue]{HpThreshold}%[/blue], gain [gold]Partial E.G.O.[/gold]",
+
   "REDMIST-DEBUG.description": "",
   "REDMIST-DEBUG.flavor": "",
-  "REDMIST-DEBUG.title": "Debug",
-  "REDMIST-KALI.description": "",
-  "REDMIST-KALI.flavor": "",
-  "REDMIST-KALI.title": "Kali"
+  "REDMIST-DEBUG.title": "Debug"
 }

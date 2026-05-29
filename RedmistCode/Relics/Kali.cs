@@ -32,6 +32,8 @@ public class Kali() : RedmistRelic
     protected override IEnumerable<DynamicVar> CanonicalVars => [
         new DynamicVar("HpThreshold", 50M),
         new PowerVar<PartialEgoPower>(1),
+        new CardsVar(1),
+        new EnergyVar(1),
     ];
 
     public override async Task AfterPlayerTurnStart(PlayerChoiceContext choiceContext, Player player)
@@ -40,8 +42,8 @@ public class Kali() : RedmistRelic
         {
             Flash();
             
-            await PlayerCmd.GainEnergy(1, Owner);
-            await CardPileCmd.Draw(choiceContext, 1, Owner);
+            await PlayerCmd.GainEnergy(DynamicVars.Energy.BaseValue, Owner);
+            await CardPileCmd.Draw(choiceContext, DynamicVars.Cards.BaseValue, Owner);
             
         }
         
