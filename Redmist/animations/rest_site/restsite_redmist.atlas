@@ -1,0 +1,14 @@
+restsite_ironclad.png
+size:984,650
+filter:Linear,Linear
+pma:true
+scale:0.5
+light
+bounds:373,23,279,567
+rotate:90
+main
+bounds:373,303,346,610
+rotate:90
+shadow
+bounds:1,1,371,648
+offsets:14,11,391,666
