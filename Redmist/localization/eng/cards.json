@@ -51,7 +51,10 @@
   "REDMIST-SPEED_UP.description": "#Gain {SpeedUpPower} *Speed this turn.",
 
   "REDMIST-VENGEANCE.title": "Vengeance",
-  "REDMIST-VENGEANCE.description": "Gain 1 *Strength for each 3 damage taken the previous turn, up to {VengeancePower}",
+  "REDMIST-VENGEANCE.description": "#Gain 1 *Strength for each 3 damage taken the previous turn, up to {VengeancePower}",
+
+  "REDMIST-FEAR_OF_WATER.title": "Fear Of Water",
+  "REDMIST-FEAR_OF_WATER.description": "#Whenever you deal unblocked attack damage, apply {FearOfWaterPower} *Bleed",
   
   "REDMIST-DEBUG_DRAW.description": "",
   "REDMIST-DEBUG_DRAW.title": "debugDraw",

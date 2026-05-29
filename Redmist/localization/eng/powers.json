@@ -30,6 +30,11 @@
 
   "REDMIST-VENGEANCE_POWER.title": "Vengeance",
   "REDMIST-VENGEANCE_POWER.description": "Gain *Strength based on the amount of damage taken the previous turn",
-  "REDMIST-VENGEANCE_POWER.smartDescription": "Gain [blue]1[/blue]*Strength for each [blue]3[/blue] damage taken the previous turn, up to {Amount}"
+  "REDMIST-VENGEANCE_POWER.smartDescription": "#Gain [blue]1[/blue]*Strength for each [blue]3[/blue] damage taken the previous turn, up to {Amount}",
+
+  "REDMIST-FEAR_OF_WATER_POWER.title": "Fear Of Water",
+  "REDMIST-FEAR_OF_WATER_POWER.description": "#Whenever you deal unblocked attack damage, apply [blue]1[/blue] *Bleed",
+  "REDMIST-FEAR_OF_WATER_POWER.smartDescription": "#Whenever you deal unblocked attack damage, apply [blue]{Amount}[/blue] *Bleed"
+
   
 }
