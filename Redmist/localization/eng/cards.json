@@ -45,11 +45,13 @@
   "REDMIST-INSTINCTS.description": "#This turn, Heal {InstinctsPower} HP every time you cause damage",
 
   "REDMIST-DONT_TOUCH_ME.title": "Dont Touch Me",
-  "REDMIST-DONT_TOUCH_ME.description": "#Apply {[nameof(WeakPower)]} *Weak.\n Gain !D! *Block",
+  "REDMIST-DONT_TOUCH_ME.description": "#Apply {WeakPower} *Weak.\n Gain !B! *Block",
 
   "REDMIST-SPEED_UP.title": "Speed Up",
-  "REDMIST-SPEED_UP.description": "#Gain {{[nameof(SpeedUpPower)]} *Speed this turn.",
-  
+  "REDMIST-SPEED_UP.description": "#Gain {SpeedUpPower} *Speed this turn.",
+
+  "REDMIST-VENGEANCE.title": "Vengeance",
+  "REDMIST-VENGEANCE.description": "Gain 1 *Strength for each 3 damage taken the previous turn, up to {VengeancePower}",
   
   "REDMIST-DEBUG_DRAW.description": "",
   "REDMIST-DEBUG_DRAW.title": "debugDraw",
