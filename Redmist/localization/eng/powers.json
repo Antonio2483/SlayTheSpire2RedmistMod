@@ -17,8 +17,8 @@
   "REDMIST-BLEED_POWER.smartDescription": "After attack, take [blue]{Amount}[/blue] Damage",
   
   "REDMIST-PARTIAL_EGO_POWER.title": "Partial EGO",
-  "REDMIST-PARTIAL_EGO_POWER.description": "Gain *Strength and *Dexterity. Whenever an Attack kills an enemy, gain *Strength and *Dexterity. At the start of your turn, if you dealt less than [blue]10[/blue] unblocked damage last turn, lose this Power and all stats granted by it.",
-  "REDMIST-PARTIAL_EGO_POWER.smartDescription": "Gain [blue]2[/blue] *Strength and [blue]2[/blue] *Dexterity. Whenever an Attack kills an enemy, gain [blue]1[/blue] *Strength and [blue]1[/blue] *Dexterity. At the start of your turn, if you dealt less than [blue]10[/blue] unblocked damage last turn, lose this Power and all stats granted by it.",
+  "REDMIST-PARTIAL_EGO_POWER.description": "#Gain *Strength and *Dexterity. Whenever an Attack kills an enemy, gain *Strength and *Dexterity. At the start of your turn, if you dealt less than [blue]10[/blue] unblocked damage last turn, lose this Power and all stats granted by it.",
+  "REDMIST-PARTIAL_EGO_POWER.smartDescription": "#Gain [blue]2[/blue] *Strength and [blue]2[/blue] *Dexterity. Whenever an Attack kills an enemy, gain [blue]1[/blue] *Strength and [blue]1[/blue] *Dexterity. At the start of your turn, if you dealt less than [blue]10[/blue] unblocked damage last turn, lose this Power and all stats granted by it.",
   
   "REDMIST-SPEED_POWER.title": "Speed",
   "REDMIST-SPEED_POWER.description": "Whenever you play an Agile card, repeat its effect [blue]{Amount}[/blue] extra times.",
@@ -30,7 +30,7 @@
 
   "REDMIST-VENGEANCE_POWER.title": "Vengeance",
   "REDMIST-VENGEANCE_POWER.description": "Gain *Strength based on the amount of damage taken the previous turn",
-  "REDMIST-VENGEANCE_POWER.smartDescription": "#Gain [blue]1[/blue]*Strength for each [blue]3[/blue] damage taken the previous turn, up to {Amount}",
+  "REDMIST-VENGEANCE_POWER.smartDescription": "#Gain [blue]1[/blue] *Strength for each [blue]3[/blue] damage taken the previous turn, up to {Amount}",
 
   "REDMIST-FEAR_OF_WATER_POWER.title": "Fear Of Water",
   "REDMIST-FEAR_OF_WATER_POWER.description": "#Whenever you deal unblocked attack damage, apply [blue]1[/blue] *Bleed",
